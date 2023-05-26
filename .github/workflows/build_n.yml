@@ -1,0 +1,65 @@
+name: Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install libvips-tools
+          sudo apt-get install rename
+          rename -V
+          gem install bundler
+          bundle install
+
+      - name: Create Build
+        run: bundle exec jekyll build -d docs
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: docs
+          path: docs
+
+  commit-build:
+    needs: build
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone the repoitory
+        uses: actions/checkout@v3
+        with:
+          ref: website-build
+
+      - name: Configure Git
+        run: |
+          git config --global user.email ${GITHUB_ACTOR}@gmail.com
+          git config --global user.name ${GITHUB_ACTOR}
+
+      - name: Download website build
+        uses: actions/download-artifact@v1
+        with:
+          name: docs
+          path: docs
+
+      - name: Commit and Push
+        run: |
+          if [ $(git status --porcelain=v1 2>/dev/null | wc -l) != "0" ] ; then
+            git add -f docs
+            git commit -m "gh-actions deployed a new website build"
+            git push --force https://$@github.com/${GITHUB_REPOSITORY}.git HEAD:website-build
+          fi
