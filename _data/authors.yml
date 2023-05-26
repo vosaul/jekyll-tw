@@ -1,0 +1,11 @@
+Clint Gibler:
+  name        : "Clint Gibler"
+  bio         : "Research Director @ NCC Group.<br/>💙 DevSecOps, scaling security, & automated bug finding.<br/>📋 BSidesLV, AppSec Cali, DevSecCon, CactusCon, Shellcon review boards."
+  avatar      : "/assets/images/people/clint_gibler.jpg"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter" # fa-twitter-square
+      url: "https://twitter.com/clintgibler"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/clintgibler/"

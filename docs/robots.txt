@@ -1,0 +1,1 @@
+Sitemap: https://cookie-demo.netlify.app/sitemap.xml

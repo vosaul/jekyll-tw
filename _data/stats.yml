@@ -1,0 +1,5 @@
+num_subscribers: "14,000"
+
+primary_sponsor_title_max_length: "80"
+primary_sponsor_body_min_length: "400"
+primary_sponsor_body_max_length: "600"
