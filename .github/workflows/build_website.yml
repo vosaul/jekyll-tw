@@ -1,0 +1,74 @@
+name: Build Website
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+          
+      - name: Configure Git
+        run: |
+          git config --global user.email ${GITHUB_ACTOR}@gmail.com
+          git config --global user.name ${GITHUB_ACTOR}
+          #git push https://github.com/vosaul/vosaul.github.io.git website-build --delete 
+          git switch --orphan website-build
+          git commit --allow-empty -m "Initial commit on orphan branch"
+          git push -u -f https://github.com/vosaul/vosaul.github.io.git website-build
+          git checkout main
+          
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          #sudo apt-get install libvips-tools
+          #sudo apt-get install rename
+          gem install bundler
+          bundle install
+      - name: Create Build 
+        run: bundle exec jekyll build -d docs
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: site
+          path: docs
+
+  commit-build:
+    needs: build
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone the repoitory
+        uses: actions/checkout@v3
+        with:
+          ref: website-build
+
+      - name: Configure Git
+        run: |
+          git config --global user.email ${GITHUB_ACTOR}@gmail.com
+          git config --global user.name ${GITHUB_ACTOR}
+      - name: Download website build
+        uses: actions/download-artifact@v1
+        with:
+          name: site
+          path: docs
+
+      - name: Commit and Push
+        run: |
+          if [ $(git status --porcelain=v1 2>/dev/null | wc -l) != "0" ] ; then
+            git add -f docs
+            git commit -m "gh-actions deployed a new website build"
+            git push --force https://github.com/vosaul/vosaul.github.io.git website-build
+          fi
