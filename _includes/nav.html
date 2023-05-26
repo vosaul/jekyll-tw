@@ -1,3 +1,4 @@
+{%- assign nav = site.data.navigation -%}
 <nav
       class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-gray-800"
     >
@@ -8,10 +9,10 @@
           class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
         >
           <a
-            class="flex-row text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            class="flex flex-row items-center text-sm font-bold leading-relaxed mr-4 py-2 whitespace-nowrap uppercase text-white"
             href="/"
             >
-            <span><img class="w-8 h-8" src="/assets/img/cookie.png" alt="Cookie" /></span>
+            <img class="w-8 h-8" src="{{nav.logo_image}}" alt="Logo" /> <span>{{nav.logo_title}}</span>
           </a
           ><button
             class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -26,16 +27,19 @@
           id="example-collapse-navbar"
         >
           <ul class="flex flex-col lg:flex-row list-none mr-auto">
+            {%- for l in nav.links -%}
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="/blog"
-                ><i
+                href="{{l.link}}"
+                >
+                <!-- <i
                   class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
-                ></i>
-                Blog</a
+                ></i> -->
+                {{l.name}}</a
               >
             </li>
+            {%- endfor -%}
           </ul>
           <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li class="flex items-center">
@@ -45,7 +49,7 @@
                 ><i
                   class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "
                 ></i
-                ><span class="lg:hidden inline-block ml-2">Share</span></a
+                ><span class="linline-block ml-2">Share</span></a
               >
             </li>
             <li class="flex items-center">
@@ -55,7 +59,7 @@
                 ><i
                   class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "
                 ></i
-                ><span class="lg:hidden inline-block ml-2">Tweet</span></a
+                ><span class="linline-block ml-2">Tweet</span></a
               >
             </li>
             <li class="flex items-center">
@@ -65,7 +69,7 @@
                 ><i
                   class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "
                 ></i
-                ><span class="lg:hidden inline-block ml-2">Star</span></a
+                ><span class="linline-block ml-2">Star</span></a
               >
             </li>
             <li class="flex items-center">
