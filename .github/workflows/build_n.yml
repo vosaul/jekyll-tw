@@ -1,4 +1,4 @@
-name: Build
+name: Build New
 
 on:
   workflow_dispatch:
@@ -19,8 +19,9 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install libvips-tools
-          sudo apt-get install rename
+          # sudo apt-get install libvips-tools
+          # sudo apt-get install rename
+          npm install tailwindcss @tailwindcss/typography cssnano postcss postcss-import autoprefixer --save-dev
           rename -V
           gem install bundler
           bundle install
