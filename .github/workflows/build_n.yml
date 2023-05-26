@@ -21,8 +21,9 @@ jobs:
           sudo apt-get update
           # sudo apt-get install libvips-tools
           # sudo apt-get install rename
+          sudo apt install npm 
           npm install tailwindcss @tailwindcss/typography cssnano postcss postcss-import autoprefixer --save-dev
-          rename -V
+          # rename -V
           gem install bundler
           bundle install
 
