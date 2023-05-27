@@ -2,12 +2,10 @@ logo_image: /assets/images/tldrsec_book_small.png
 logo_title: tl;dr sec
 links:
 - name: Star Here
-  link: /start-here/
+  link: /
 - name: Blog
   link: /blog/
-- name: Summaries
-  link: /summaries/
-- name: Newsletter
-  link: /newsletter/
-- name: Guides
-  link: /Guides/
+- name: About
+  link: /about/
+- name: Contact
+  link: /contact-us/
