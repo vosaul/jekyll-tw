@@ -86,3 +86,9 @@ If you like Cookie, do check out my other projects
 
 ✨⚡You can read more about me on my [blog](https://www.abhinav.co/about/) or follow me on Twitter - [@abhinav](https://twitter.com/abhinav)
 
+## Deploing on Netlify
+
+- Create your own [Netlify](https://www.netlify.com/) account 
+- Sites => Add new site => Import an existing project => GitHub
+- Pick a repository from GitHub
+- Deploy site
