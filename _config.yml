@@ -25,6 +25,35 @@ collections:
   pages:
     output: true
     permalink: "/:title"
+  job:
+    output: true
+    permalink: "/:collection/:title/"
+  company:
+    output: true
+    permalink: "/:collection/:title/"
+  type:
+    output: true
+    permalink: "/:collection/:title/"
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "_company"
+      type: "company" 
+    values:
+      layout: "company"
+  -
+    scope:
+      path: "_job"
+      type: "job" 
+    values:
+      layout: "job"
 
 jekyll-minifier:
   uglifier_args:
@@ -48,3 +77,4 @@ exclude:
   - tailwind.config.js
   - .gitignore
   - vendor
+  - bin

@@ -1,13 +1,33 @@
 ---
-title: A better way to ship your projects
-description: Esse id magna consectetur fugiat non dolor in ad laboris magna laborum ea consequat. Nisi irure aliquip nisi adipisicing veniam voluptate id. In veniam incididunt ex veniam adipisicing sit.
+title: Find Bitcoin jobs, hire bitcoiners
+description: BitcoinJobs.com makes it easy to find Bitcoin jobs and hire talent. Browse jobs from the very best companies.
 layout: new
 ---
 {%- include hero_with_phone.html -%}
 
-{%- include logo_cloud_simple_with_heading.html -%}
+{%- assign jobs = site.job | sort: "date" | reverse -%}
 
-{%- include testimonial_grid.html -%}
+<section class="container mx-auto max-w-2xl prose">
+  <div class="grid gap-5">
+    {%- for job in jobs -%}
+      <div class="py-5 px-8 border rounded-xl mb-5 shadow-xl grid gap-6 items-center " style="grid-template-columns: 48px 1fr ">
+        <img src="{{job.logo}}" alt="logo" class="mw-12 " width="48" height="48" loading="lazy">
+        <div class="text">
+          <h2 class="my-0">{{job.title}}</h2>
+
+          <span>{{job.date | date: "%d %B %Y"}}</span>
+          <span>
+            <img src="/assets/images/location.png" alt="location" class="inline mb-0 mt-0" width="16" height="16" loading="lazy">  {{job.location}}, 
+            <img src="/assets/images/clock.png" alt="type" class="inline mb-0 mt-0" width="16" height="16" loading="lazy"> 
+            {{job.type}}</span><br>
+          <a href="{{job.url}}" aria-label="Read more about {{job.title}}">Read more...</a>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+
 
 <div class="mx-auto">
   {%- include newsletter_section_simple_stacked.html -%}

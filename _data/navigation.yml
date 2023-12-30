@@ -1,11 +1,11 @@
-logo_image: /assets/images/tldrsec_book_small.png
-logo_title: tl;dr sec
+logo_image: /assets/images/logo.png
+logo_title: Biticoin Jobs
 links:
-- name: Star Here
-  link: /
 - name: Blog
   link: /blog/
-- name: About
-  link: /about/
+- name: Companies
+  link: /companies/
+- name: Categories
+  link: /companies/
 - name: Contact
-  link: /contact-us/
+  link: /contact/
