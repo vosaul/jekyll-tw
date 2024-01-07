@@ -1,0 +1,31 @@
+---
+layout: default
+title: Job Categories
+description: Browse jobs by category.
+---
+<div class="relative py-24 md:py-28 bg-white overflow-hidden font-sans  text-center">
+  <div class="relative px-4 sm:px-6 lg:px-8">
+    <div class="text-lg max-w-screen-md	 mx-auto mb-5">
+      <h1
+        class="font-misc mt-2 mb-4 text-4xl text-center-DIS leading-8 font-extrabold text-gray-800 md:text-4xl sm:leading-10">
+        {{ page.title | escape }}</h1>
+      {%- if page.description -%}
+      <p>{{page.description}}</p>
+      {%- endif -%}
+    </div>
+    <div class="text-gray-800 mx-auto">
+      <div class="container max-w-screen-xl py-8 md:py-6 mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mt-12 grid gap-5 p-4 sm:grid-cols-2 lg:grid-cols-3 ">
+          {%- for post in site.type -%}
+          <div class="px-7 py-5 border rounded-xl shadow-xl">
+            <h2 class="mt-1 text-2xl tracking-tight font-bold text-gray-900 sm:leading-none md:text-3xl">
+              <a href="{{ post.url | relative_url }}" class="not-prose no-underline	">{{ post.title | escape }}</a>
+            </h2>
+            
+          </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

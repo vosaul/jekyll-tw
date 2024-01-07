@@ -1,8 +1,9 @@
 ---
 title: Head Of OTC Quantitative Trading
 description: Kraken is hiring for a full time Head of OTC Quantitative Trading since Jan 20, 2023. Apply today.
-logo: /assets/images/c7.png
+logo: /assets/images/c7.webp
 date: 2023-01-20
+company: 
 location: Remote
 type: Full Time
 salary: 

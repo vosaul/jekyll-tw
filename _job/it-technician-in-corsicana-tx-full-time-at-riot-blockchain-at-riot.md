@@ -1,8 +1,9 @@
 ---
 title: Data Center Technician At Riot Platforms In Rockdale, TX
 description: Riot Platforms is hiring for a full time Data Center Technician At Riot Platforms In Rockdale, TX since May 25, 2023. Apply today.
-logo: /assets/images/c2.png
+logo: /assets/images/c2.webp
 date: 2023-05-25
+company: 
 location: Rockdale, TX
 type: Full Time
 salary: 15 USD per hour

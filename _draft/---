@@ -1,0 +1,255 @@
+<div role="list" class="categories-wrapper w-dyn-items">
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/warsaw-poland"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Warsaw, Poland</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/florida"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Florida</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/miami-florida"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Miami, Florida</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/los-angeles-california"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Los Angeles, California</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/new-york"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>New York</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/fairport-new-york"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Fairport, New York</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/tennessee"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Tennessee</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/nashville-tennessee"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Nashville, Tennessee</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/sandersville-georgia"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Sandersville, Georgia</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/corsicana-texas"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Corsicana, Texas</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/singapore"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Singapore</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/india"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>India</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/texas"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Texas</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/georgia"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Georgia</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/california"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>California</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/prague-czech-republic"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Prague, Czech Republic</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/rockdale-tx"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Rockdale, TX</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/irvine-ca"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Irvine, CA</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/atlanta-ga"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Atlanta, GA</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/seattle-wa"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Seattle, WA</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/stockholm-se"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Stockholm, SE</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/sanfrancisco-ca"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>San Francisco, CA</div>
+        </div>
+      </div>
+    </a></div>
+  <div role="listitem" class="category-card w-dyn-item"><a href="/places/remote"
+      class="category-card-link w-inline-block">
+      <div class="category-card-inner">
+        <div class="card-icon-wrapper secondary"><img
+            src="https://assets-global.website-files.com/63ab3f3841b0ca59b9e0fc38/63c0333accb1e1304b3b5b80_location-pin.png"
+            loading="lazy" alt="" class="card-icon-image secondary"></div>
+        <div class="category-text-div">
+          <div>Remote</div>
+        </div>
+      </div>
+    </a></div>
+</div>

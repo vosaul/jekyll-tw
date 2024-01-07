@@ -34,6 +34,9 @@ collections:
   type:
     output: true
     permalink: "/:collection/:title/"
+  places:
+    output: true
+    permalink: "/place/:title/"
 
 defaults:
   -
@@ -54,6 +57,18 @@ defaults:
       type: "job" 
     values:
       layout: "job"
+  -
+    scope:
+      path: "_type"
+      type: "type" 
+    values:
+      layout: "type"
+  -
+    scope:
+      path: "_places"
+      type: "place" 
+    values:
+      layout: "place"
 
 jekyll-minifier:
   uglifier_args:

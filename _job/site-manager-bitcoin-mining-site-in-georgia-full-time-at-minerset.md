@@ -1,8 +1,9 @@
 ---
 title: Full Time Site Manager - Bitcoin Mining Site At Minerset In Georgia
 description: Minerset is hiring for a full time Full Time Site Manager - Bitcoin Mining Site At Minerset In Georgia since Sep 04, 2023. Apply today.
-logo: /assets/images/c2.png
+logo: /assets/images/c2.webp
 date: 2023-09-04
+company: 
 location: Georgia
 type: Full Time
 salary: 

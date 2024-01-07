@@ -1,0 +1,17 @@
+---
+layout: page
+title: Bitcoin Companies Places
+description: Browse all companies offering jobs.
+---
+<section class="companies container mw-4xl mx-auto mt-24 mb-10 grid gap-5">
+  <div class="grid gap-6 px-4 md:grid-cols-2 lg:grid-cols-3 ">
+    {%- for place in site.places -%}
+    <div class="company_card p-4 border rounded-xl shadow-xl ">
+      <a href="{{place.url}}" class="flex gap-5 items-center flex-col sm:flex-row" style="grid-template-columns: 100px 1fr; text-decoration:none">
+        <img src="/assets/images/pin.png" alt="pin" width="24" h="24" loading="lazy">
+          <h2 class="p-0 m-0">{{place.title}}</h2>
+      </a>
+    </div>
+    {%- endfor -%}
+  </div>
+</section>

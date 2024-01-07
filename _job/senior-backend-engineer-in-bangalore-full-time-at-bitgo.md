@@ -1,8 +1,9 @@
 ---
 title: Full Time Senior Backend Engineer At BitGo In Bangalore
 description: BitGo is hiring for a full time Full Time Senior Backend Engineer At BitGo In Bangalore since Nov 17, 2023. Apply today.
-logo: /assets/images/c1.png
+logo: /assets/images/c1.webp
 date: 2023-11-17
+company: BitGo
 location: Bangalore
 type: Full Time
 salary: 50000

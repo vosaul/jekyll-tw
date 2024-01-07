@@ -4,14 +4,14 @@ title: Bitcoin Companies Hiring & Careers
 description: Browse all companies offering jobs.
 ---
 <section class="companies container mw-4xl mx-auto mt-24 mb-10 grid gap-5">
-  <div class="grid gap-6">
+  <div class="grid gap-6 px-4 md:grid-cols-2 xl:grid-cols-3">
     {%- for company in site.company -%}
-    <div class="company_card p-6 border rounded-xl shadow-xl">
-      <a href="{{company.url}}" class="grid gap-5 items-center" style="grid-template-columns: 100px 1fr">
-        <img src="{{company.logo}}" alt="logo">
+    <div class="company_card p-4 border rounded-xl shadow-xl hover:bg- cursor-pointer">
+      <a href="{{company.url}}" class="flex gap-5 items-center flex-col sm:flex-row" style="grid-template-columns: 100px 1fr">
+        <img src="{{company.logo}}" alt="logo" class="not-prose w-12 h-12">
         <div class="text">
-          <h2>{{company.title}}</h2>
-          <p>{{company.description}}</p>
+          <h2 class="p-0 m-0">{{company.title}}</h2>
+          <!-- <p>{{company.description}}</p> -->
         </div>
       </a>
     </div>

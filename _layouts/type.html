@@ -1,8 +1,27 @@
 ---
-layout: default
+layout: type-single
 ---
 
-<h1>{{page.title}}</h1>
-<p>{{page.description}}</p>
+<div class="mx-auto">
+  {%- include subscribe.html -%}
+</div>
 
-{{content}}
+{%- assign jobs = site.job | where: "category", page.title -%}
+<div class="grid gap-5">
+  {%- for job in jobs -%}
+  <div class="py-5 px-8 border rounded-xl mb-5 shadow-xl grid gap-6 items-center "
+    style="grid-template-columns: 48px 1fr ">
+    <img src="{{job.logo}}" alt="logo" class="mw-12 " width="48" height="48" loading="lazy">
+    <div class="text">
+      <h2 class="my-0">{{job.title}}</h2>
+      <span>{{job.date | date: "%d %B %Y"}}</span>
+      <span>
+        <img src="/assets/images/location.png" alt="location" class="inline mb-0 mt-0" width="16" height="16"
+          loading="lazy"> {{job.location}},
+        <img src="/assets/images/clock.png" alt="type" class="inline mb-0 mt-0" width="16" height="16" loading="lazy">
+        {{job.type}}</span><br>
+      <a href="{{job.url}}" aria-label="Read more about {{job.title}}">Read more...</a>
+    </div>
+  </div>
+  {%- endfor -%}
+</div>

@@ -1,0 +1,13 @@
+---
+layout: page
+---
+<img src="/assets/images/pin.png" alt="pin" width="24" height="24">
+<h1>Bitcoin Jobs In {{page.title}}</h1>
+<p>Browse all Bitcoin jobs in {{page.title}}</p>
+<section class="companies container mw-2xl mx-auto mt-24 mb-10 grid gap-5">
+    {%- for job in site.job -%}
+    {%- if job.location == page.title -%}
+      <a href="{{job.url}}">{{job.title}}</a>
+    {%- endif -%}
+    {%- endfor -%}
+</section>

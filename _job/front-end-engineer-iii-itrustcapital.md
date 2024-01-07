@@ -1,8 +1,9 @@
 ---
 title: Front End Engineer III
 description: iTrustCapital is hiring for a full time Front End Engineer III since Dec 29, 2022. Apply today.
-logo: /assets/images/c10.png
+logo: /assets/images/c10.webp
 date: 2022-12-29
+company: 
 location: Irvine, CA
 type: Full Time
 salary: 

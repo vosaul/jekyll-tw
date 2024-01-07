@@ -8,17 +8,17 @@ layout: new
 {%- assign jobs = site.job | sort: "date" | reverse -%}
 
 <section class="container mx-auto max-w-2xl prose">
-  <div class="grid gap-5">
+  <div class="grid gap-5 px-4">
     {%- for job in jobs -%}
-      <div class="py-5 px-8 border rounded-xl mb-5 shadow-xl grid gap-6 items-center " style="grid-template-columns: 48px 1fr ">
-        <img src="{{job.logo}}" alt="logo" class="mw-12 " width="48" height="48" loading="lazy">
+      <div class="py-5 px-8 border rounded-xl mb-5 shadow-xl flex gap-6 items-center flex-col sm:flex-row " style="grid-template-columns: 48px 1fr ">
+        <img src="{{job.logo}}" alt="logo" class="mw-12 my-0" width="48" height="48" loading="lazy">
         <div class="text">
           <h2 class="my-0">{{job.title}}</h2>
 
           <span>{{job.date | date: "%d %B %Y"}}</span>
           <span>
-            <img src="/assets/images/location.png" alt="location" class="inline mb-0 mt-0" width="16" height="16" loading="lazy">  {{job.location}}, 
-            <img src="/assets/images/clock.png" alt="type" class="inline mb-0 mt-0" width="16" height="16" loading="lazy"> 
+            <a href="/place/{{job.location | slugify}}/"><img src="/assets/images/location.png" alt="location" class="inline mb-0 mt-0" width="16" height="16" loading="lazy">  {{job.location}}</a>, 
+            <img src="/assets/images/clock.png" alt="type" class="inline mb-0 mt-0" width="16" height="16" loading="lazy">
             {{job.type}}</span><br>
           <a href="{{job.url}}" aria-label="Read more about {{job.title}}">Read more...</a>
         </div>

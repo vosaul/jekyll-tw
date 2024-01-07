@@ -1,0 +1,87 @@
+---
+layout: page
+title: Post A Job In 5 Minutes Or Less
+description: Reach thousands of job seekers and hire the very best talent.
+---
+<section class="max-w-2xl p-5 mx-auto">
+  <h2 class="text-center">Tell us about your job</h2>
+  <form name="contact" method="POST" data-netlify="true" class="grid gap-5  md:grid-cols-2 w-full">
+    <div class="grid">
+      <label>Job title *</label>
+      <input type="text" name="title" />
+    </div>
+    <div class="grid">
+      <label>Job location *</label>
+      <input type="text" name="location" />
+    </div>
+    <div class="grid col-span-2">
+      <label>Job application method *</label>
+      <select type="text" name="method" />
+      <option value="">Select option</option>
+      <option value="">Apply by website</option>
+      <option value="">Apply by email</option>
+      </select>
+    </div>
+    <div class="grid">
+      <label>Pay in U.S. Dollars *</label>
+      <input type="text" name="pay" />
+    </div>
+    <div class="grid">
+      <label>Job type *</label>
+      <select type="text" name="method" />
+      <option value="">Select option</option>
+      <option value="">Apply by website</option>
+      <option value="">Apply by email</option>
+      </select>
+    </div>
+    <div class="grid">
+      <label>Job category *</label>
+      <select type="text" name="method" />
+      <option value="">Select option</option>
+      <option value="">Apply by website</option>
+      <option value="">Apply by email</option>
+      </select>
+    </div>
+    <div class="grid">
+      <label>Salary timeframe</label>
+      <select type="text" name="method" />
+      <option value="">Select option</option>
+      <option value="">Annually</option>
+      <option value="">Monthly</option>
+      <option value="">Weekly</option>
+      <option value="">Dayly</option>
+      <option value="">Hourly</option>
+      </select>
+    </div>
+    <label class="w-checkbox"><input type="checkbox" id="Remote-Checkbox" name="Remote-Checkbox"
+        data-name="Remote Checkbox" class="w-checkbox-input"><span class="w-form-label"
+        for="Remote-Checkbox">Remote</span></label>
+    <label class="w-checkbox"><input type="checkbox" id="Paid-In-BTC-Checkbox" name="Paid-In-BTC-Checkbox"
+        data-name="Paid In BTC Checkbox" class="w-checkbox-input"><span class="w-form-label"
+        for="Paid-In-BTC-Checkbox">Paid In Bitcoin</span></label>
+
+    <h2 class="col-span-2 text-center">Give us information about your company</h2>
+    <div class="grid">
+      <label>Company name *</label>
+      <input type="text" name="company" />
+    </div>
+    <div class="grid">
+      <label>Company tagline *</label>
+      <input type="text" name="tagline" />
+    </div>
+    <div class="grid col-span-2">
+      <label>Company website *</label> <input type="text" name="website" />
+    </div>
+    <div class="grid col-span-2 ">
+      <label>Company description *</label>
+      <textarea name="description"></textarea>
+    </div>
+    <div class="grid col-span-2 ">
+      <label>Job description *</label>
+      <textarea name="job_description"></textarea>
+    </div>
+    <div class="grid">
+      <button type="submit" class="py-2 px-4 bg-green-700 text-white w-fit border-rounded-lg">Send</button>
+    </div>
+  </form>
+</section>

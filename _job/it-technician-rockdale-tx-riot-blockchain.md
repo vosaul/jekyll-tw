@@ -1,8 +1,9 @@
 ---
 title: Mining OPS Engineer
 description: Riot Blockchain is hiring for a full time IT Technician - Rockdale, TX since Dec 29, 2022. Apply today.
-logo: /assets/images/c9.png
+logo: /assets/images/c9.webp
 date: 2022-12-29
+company: 
 location: Texas
 type: Full Time
 salary: 

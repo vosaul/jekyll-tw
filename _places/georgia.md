@@ -1,0 +1,4 @@
+---
+title: Georgia
+layout: place
+---

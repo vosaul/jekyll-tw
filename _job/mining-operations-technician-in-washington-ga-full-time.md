@@ -1,8 +1,9 @@
 ---
 title: Full Time Mining Operations Technician At CleanSpark In Washington, GA
 description: CleanSpark is hiring for a full time Full Time Mining Operations Technician At CleanSpark In Washington, GA since May 25, 2023. Apply today.
-logo: /assets/images/c4.png
+logo: /assets/images/c4.webp
 date: 2023-05-25
+company: 
 location: Washington, GA
 type: Full Time
 salary: 23.00

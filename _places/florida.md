@@ -1,0 +1,4 @@
+---
+title: Florida
+layout: place
+---

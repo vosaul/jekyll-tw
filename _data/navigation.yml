@@ -5,7 +5,9 @@ links:
   link: /blog/
 - name: Companies
   link: /companies/
+- name: Places
+  link: /places/
 - name: Categories
-  link: /companies/
+  link: /type/
 - name: Contact
   link: /contact/

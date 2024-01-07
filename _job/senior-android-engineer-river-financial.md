@@ -1,8 +1,9 @@
 ---
 title: Senior Android Engineer
 description: River Financial is hiring for a full time Senior Android Engineer since Dec 29, 2022. Apply today.
-logo: /assets/images/c12.png
+logo: /assets/images/c12.webp
 date: 2022-12-29
+company: 
 location: Remote
 type: Full Time
 salary: 

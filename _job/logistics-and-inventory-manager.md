@@ -1,8 +1,9 @@
 ---
 title: Logistics And Inventory Manager
 description: CleanSpark is hiring for a full time Logistics and Inventory Manager since Dec 29, 2022. Apply today.
-logo: /assets/images/c11.png
+logo: /assets/images/c11.webp
 date: 2022-12-29
+company: 
 location: Atlanta, GA
 type: Full Time
 salary: $75k-90k (annually)

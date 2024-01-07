@@ -1,8 +1,9 @@
 ---
 title: Mining OPS Engineer
 description: Braiins is hiring for a full time Mining OPS Engineer since Jan 12, 2023. Apply today.
-logo: /assets/images/c8.png
+logo: /assets/images/c8.webp
 date: 2023-01-12
+company: 
 location: Texas
 type: Full Time
 salary: 

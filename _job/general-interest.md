@@ -1,8 +1,9 @@
 ---
 title: General Interest
 description: BTC Inc is hiring for a full time General Interest since Jan 20, 2023. Apply today.
-logo: /assets/images/c6.png
+logo: /assets/images/c6.webp
 date: 2023-01-20
+company: 
 location: Remote
 type: Full Time
 salary: 
